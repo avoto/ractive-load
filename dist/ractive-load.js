@@ -1,8 +1,6 @@
-(function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('ractive')) :
-  typeof define === 'function' && define.amd ? define(['ractive'], factory) :
-  (global.Ractive = global.Ractive || {}, global.Ractive.load = factory(global.Ractive));
-}(this, function (Ractive) { 'use strict';
+this.Ractive = this.Ractive || {};
+this.Ractive.load = (function (Ractive) {
+  'use strict';
 
   Ractive = 'default' in Ractive ? Ractive['default'] : Ractive;
 
@@ -1275,4 +1273,4 @@
 
   return load;
 
-}));
+}(Ractive));

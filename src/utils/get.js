@@ -1,7 +1,7 @@
 import Ractive from 'ractive';
 
 var get;
-
+Ractive.Promise = Ractive.Promise || Promise;
 // Test for XHR to see if we're in a browser...
 if ( typeof XMLHttpRequest !== 'undefined' ) {
 	get = function ( url ) {
