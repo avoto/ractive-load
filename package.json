@@ -10,7 +10,7 @@
   "jsnext:main": "dist/ractive-load.es.js",
   "description": "Component loader plugin for Ractive.js",
   "dependencies": {
-    "rcu": "0.9.0"
+    "rcu": "../rcu"
   },
   "devDependencies": {
     "babel-preset-es2015-rollup": "^3.0.0",
