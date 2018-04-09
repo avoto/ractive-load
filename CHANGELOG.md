@@ -1,5 +1,9 @@
 # changelog
 
+## 0.8.0
+
+* Support for the latest RCU and Ractive 0.10.0
+
 ## 0.6.0
 
 * Overhaul build process etc
